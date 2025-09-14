@@ -22,7 +22,7 @@ The objective of this project is to design and implement a Python-based Voice As
 
  - time → for handling delays in execution
 
-# Platform: Windows (works with system apps like Notepad, Paint, etc.)
+### Platform: Windows (works with system apps like Notepad, Paint, etc.)
 
 ## Features Implemented
 
@@ -56,7 +56,7 @@ The objective of this project is to design and implement a Python-based Voice As
 
  - If the command requested date/time/news → fetched details and responded via speech.
 
-# Output: The assistant Clara responded with both printed text and spoken response.
+### Output: The assistant Clara responded with both printed text and spoken response.
 
 ## Outcome
 
