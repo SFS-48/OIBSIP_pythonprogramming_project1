@@ -6,97 +6,97 @@ The objective of this project is to design and implement a Python-based Voice As
 
 ## Tools & Technologies Used
 
--Programming Language: Python 3
+- Programming Language: Python 3
 
--Libraries & Modules:
+- Libraries & Modules:
 
- -speech_recognition → for speech-to-text conversion
+ - speech_recognition → for speech-to-text conversion
 
- -pyttsx3 → for text-to-speech conversion
+ - pyttsx3 → for text-to-speech conversion
 
- -webbrowser → to open websites and perform online searches
+ - webbrowser → to open websites and perform online searches
 
- -os → for executing system applications
+ - os → for executing system applications
 
- -datetime → to fetch date and time
+ - datetime → to fetch date and time
 
- -time → for handling delays in execution
+ - time → for handling delays in execution
 
 # Platform: Windows (works with system apps like Notepad, Paint, etc.)
 
 ## Features Implemented
 
--Speech Recognition – Takes user input via microphone and converts it to text
+- Speech Recognition – Takes user input via microphone and converts it to text
 
--Text-to-Speech – Responds to the user
+- Text-to-Speech – Responds to the user
 
--System Application Control – Opens applications like Calculator, Notepad, Paint, Command Prompt, File Explorer
+- System Application Control – Opens applications like Calculator, Notepad, Paint, Command Prompt, File Explorer
 
--Web Applications & Websites – Opens Gmail, Google Drive, YouTube, Wikipedia, Facebook, Twitter (X), Instagram, LinkedIn, W3Schools, Geeks for Geeks, etc.
+- Web Applications & Websites – Opens Gmail, Google Drive, YouTube, Wikipedia, Facebook, Twitter (X), Instagram, LinkedIn, W3Schools, Geeks for Geeks, etc.
 
--Information Retrieval – Provides current time and date
+- Information Retrieval – Provides current time and date
 
--Search & News Updates – Performs Google searches, plays YouTube videos, fetches news updates
+- Search & News Updates – Performs Google searches, plays YouTube videos, fetches news updates
 
--Exit Command – Gracefully ends execution on "exit" or "quit" command
+- Exit Command – Gracefully ends execution on "exit" or "quit" command
 
 ## Steps Performed
 
--Environment Setup: Installed Python and required libraries (speechrecognition, pyttsx3).
+- Environment Setup: Installed Python and required libraries (speechrecognition, pyttsx3).
 
--Voice Engine Initialization: Configured pyttsx3 and set speech rate.
+- Voice Engine Initialization: Configured pyttsx3 and set speech rate.
 
--Speech Input Processing: Used speech_recognition to listen via microphone and convert speech into text.
+- Speech Input Processing: Used speech_recognition to listen via microphone and convert speech into text.
 
--Command Execution:
+- Command Execution:
 
- -If the command matched system apps → opened Calculator, Notepad, Paint, CMD, Explorer.
+ - If the command matched system apps → opened Calculator, Notepad, Paint, CMD, Explorer.
 
- -If the command matched web apps/websites → opened Gmail, YouTube, Wikipedia, social media, or performed Google search.
+ - If the command matched web apps/websites → opened Gmail, YouTube, Wikipedia, social media, or performed Google search.
 
- -If the command requested date/time/news → fetched details and responded via speech.
+ - If the command requested date/time/news → fetched details and responded via speech.
 
 # Output: The assistant Clara responded with both printed text and spoken response.
 
 ## Outcome
 
--Successfully created a working voice assistant that interacts with users naturally.
+- Successfully created a working voice assistant that interacts with users naturally.
 
--Demonstrated integration of speech recognition, system automation, and web-based search.
+- Demonstrated integration of speech recognition, system automation, and web-based search.
 
--Provides an engaging and interactive way to control system and internet resources via voice commands.
+- Provides an engaging and interactive way to control system and internet resources via voice commands.
 
 ## How to Run the Project
 
--Install Python (>=3.8) on your system.
+- Install Python (>=3.8) on your system.
 
--Install required libraries:
+- Install required libraries:
 
    pip install speechrecognition pyttsx3 pyaudio
 
 
--Save the code file as voice_assistant.py.
+- Save the code file as voice_assistant.py.
 
--Run the program:
+- Run the program:
 
    python voice_assistant.py
 
 ## Keywords for Commands
 
--Keyword for System apps (Notepad, Calculator, Paint, CMD, Explorer) → "Open ___" particular app
+- Keyword for System apps (Notepad, Calculator, Paint, CMD, Explorer) → "Open ___" particular app
 
--Keyword for Google search → "Search ___"
+- Keyword for Google search → "Search ___"
 
--Keyword for YouTube → "Play ___"
+- Keyword for YouTube → "Play ___"
 
--Keyword for Wikipedia → "Look up ___ on Wikipedia"
+- Keyword for Wikipedia → "Look up ___ on Wikipedia"
 
--Keyword for coding help → "Coding help on W3Schools ___" or "Coding help on Geeks for Geeks ___"
+- Keyword for coding help → "Coding help on W3Schools ___" or "Coding help on Geeks for Geeks ___"
 
--Keyword for News → "___ news" or simply "News"
+- Keyword for News → "___ news" or simply "News"
 
--Keyword for Date → "What is the date"
+- Keyword for Date → "What is the date"
 
-Keyword for Time → "What is the time"
+- Keyword for Time → "What is the time"
 
-Keyword for Exit → "Exit" or "Quit"
+- Keyword for Exit → "Exit" or "Quit"
